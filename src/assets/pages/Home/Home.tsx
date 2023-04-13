@@ -32,7 +32,7 @@ function Home() {
           </Box>
         </Grid>
         <Grid item xs={12} md={6} paddingY={{ xs:10 , md: 20 }}>
-          <img src="https://ik.imagekit.io/sammylexa/Portfolio/Samantha_Perfil.png?updatedAt=1681383853143" alt="Imagem de Samantha" className='imagemHome'/>
+          <img src="Samantha Linkedin.jpg" alt="Imagem de Samantha" className='imagemHome'/>
         </Grid>
         <Grid xs={12} style={{ backgroundColor: "white" }}>
         </Grid>
