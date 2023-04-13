@@ -1,0 +1,20 @@
+.imagemHome{
+    width: 50% ;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+    border: var(--cor-terciaria) solid 3px;
+}
+
+strong{
+    color: var(--cor-terciaria)
+}
+
+.sammy:hover{
+    color: var(--cor-hover);
+}
+
+.botao{
+    width: 30%;
+}
