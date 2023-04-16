@@ -1,0 +1,22 @@
+.imagemSamantha{
+    width: 70% ;
+    height: 70%;
+    display: block;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    align-items: center;
+    border: var(--cor-terciaria) solid 5px;
+}
+
+.testoSobre{
+    text-align:justify !important;
+    color: black !important;
+}
+
+@media (max-width: 700px) {
+    .containerResponsivo{
+        flex-direction: column-reverse;
+    }
+}

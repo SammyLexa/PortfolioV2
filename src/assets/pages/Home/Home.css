@@ -1,20 +1,35 @@
 .imagemHome{
-    width: 50% ;
-    height: 50%;
+    width: 70% ;
+    height: 70%;
     display: block;
     margin: 0 auto;
-    border-radius: 100%;
-    border: var(--cor-terciaria) solid 3px;
 }
 
 strong{
     color: var(--cor-terciaria)
 }
 
-.sammy:hover{
+.destaque:hover{
     color: var(--cor-hover);
 }
 
 .botao{
     width: 30%;
+}
+
+.banner{
+    background: url('../../img/banner.jpg') no-repeat center / cover;
+    width: 100%;   
+}
+
+@media screen and (min-width: 0) {
+    .banner {
+        height: calc(100vh - 100vh);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner{
+        height: calc(100vh - 72px);
+    }
 }

@@ -5,16 +5,16 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 
 function Footer() {
-  return (
-    <>
-    <Grid
+    return (
+        <>
+            <Grid
                 container
                 direction="row"
                 justifyContent="center"
                 alignItems="center"
             >
-                <Grid alignItems="center" item xs={12}>
-                    <Box style={{ backgroundColor: "var(--cor-hover)", height: "40%" }}>
+                <Box display={'flex'} alignItems="center" width={'100%'} justifyContent={'space-around'} style={{ background: "rgb(138,43,226)", height: '150px' }}>
+                    <Box >
                         <Box
                             paddingTop={1}
                             display="flex"
@@ -25,52 +25,55 @@ function Footer() {
                                 variant="h5"
                                 align="center"
                                 gutterBottom
-                                style={{ color: "white" }}
+                                style={{ color: 'white', fontSize:"1.3rem" }} className='footer'
                             >
-                                Siga-me nas redes sociais{" "}
+                                Siga-me nas redes sociais{' '}
                             </Typography>
                         </Box>
                         <Box display="flex" alignItems="center" justifyContent="center">
                             <a
-                                href="https://www.linkedin.com/in/samantha-alexandra-pereira/"
-                                target="_blank"
-                            >
-                                <LinkedInIcon style={{ fontSize: 60, color: "white" }} />
-                            </a>
-                            <a
                                 href="https://github.com/SammyLexa"
                                 target="_blank"
                             >
-                                <GitHubIcon style={{ fontSize: 60, color: "white" }} />
+                                <GitHubIcon style={{ fontSize: 60, color: 'white' }} />
+                            </a>
+                            <a
+                                href="https://www.linkedin.com/in/samantha-alexandra-pereira/"
+                                target="_blank"
+                            >
+                                <LinkedInIcon style={{ fontSize: 60, color: 'white' }} />
                             </a>
                         </Box>
                     </Box>
-                    <Box style={{ backgroundColor: "var(--cor-destaque)", height: "30%" }}>
+                    <Box >
                         <Box paddingTop={1}>
                             <Typography
-                                variant="subtitle2"
+                                variant="h5"
                                 align="center"
                                 gutterBottom
-                                style={{ color: "white" }}
+                                style={{ color: 'white', fontSize:"1.3rem" }}
+                                component={'span'} className='footer'
                             >
-                                © 2023 Copyright:
+                                © 2023 Copyright: {' '}
                             </Typography>
-                        </Box>
-                        <Box>
-                            <Typography
-                                variant="subtitle2"
-                                gutterBottom
-                                style={{ color: "white" , fontSize:"1rem"}}
-                                align="center"
-                            >
-                                Desenvolvido por Samantha Alexandra Pereira
-                            </Typography>
+
+                            <a target="_blank" href="https://brasil.generation.org">
+                                <Typography
+                                    variant="h5"
+                                    gutterBottom
+                                    style={{ color: 'white', fontSize:"1.3rem" }}
+                                    align="center"
+                                    component={'span'} className='footer'
+                                >
+                                    Desenvolvido por Samantha Alexandra
+                                </Typography>
+                            </a>
                         </Box>
                     </Box>
-                </Grid>
+                </Box>
             </Grid>
-    </>
-  )
+        </>
+    )
 }
 
 export default Footer
