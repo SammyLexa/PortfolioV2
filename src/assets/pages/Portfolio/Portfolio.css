@@ -1,12 +1,33 @@
 .card {
-    background-color: #8b3ed3 !important;
+    background-color: #814db3 !important;
     color: whitesmoke !important;
     font-size: 1.30rem !important;
+    
 }
 
 .containerPortfolio {
-    background-color: rgb(255, 255, 255);
-    
+    background: linear-gradient(320deg, #e722a5, #000000, #be22ec);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 59s ease infinite;
+    -moz-animation: AnimationName 59s ease infinite;
+    animation: AnimationName 59s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
 }
 
 .link{
@@ -21,9 +42,4 @@
     border-radius: 32px;
     padding: 5px;
     transition: 0.7s;
-}
-
-.titulo{
-    /* text-decoration: underline rgba(90, 24, 154, 1) ; */
-    /* padding-bottom: 1rem; */
 }
