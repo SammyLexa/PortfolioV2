@@ -13,7 +13,7 @@ function Footer() {
                 justifyContent="center"
                 alignItems="center"
             >
-                <Box display={'flex'} alignItems="center" width={'100%'} justifyContent={'space-around'} style={{ background: "rgb(138,43,226)", height: '150px' }}>
+                <Box display={'flex'} alignItems="center" width={'100%'} justifyContent={'space-around'} style={{height: '150px' }} className='fundo'>
                     <Box >
                         <Box
                             paddingTop={1}

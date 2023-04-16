@@ -1,0 +1,29 @@
+.card {
+    background-color: #8b3ed3 !important;
+    color: whitesmoke !important;
+    font-size: 1.30rem !important;
+}
+
+.containerPortfolio {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.link{
+    color: #4b1a79 !important;
+    background-color: #ffffff;
+    border-radius: 32px;
+}
+
+.link:hover{
+    color: white !important;
+    background-color: #4b1a79;
+    border-radius: 32px;
+    padding: 5px;
+    transition: 0.7s;
+}
+
+.titulo{
+    /* text-decoration: underline rgba(90, 24, 154, 1) ; */
+    /* padding-bottom: 1rem; */
+}

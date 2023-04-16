@@ -61,7 +61,7 @@ export default function Navbar(props: Props) {
     return (
         <Box sx={{ display: "flex" }} justifyContent={"center"}>
             <CssBaseline /> 
-            <AppBar component="nav" style={{backgroundColor: "var(--cor-terciaria)"}} > 
+            <AppBar component="nav" className="fundo" > 
                 <Toolbar> 
                     <IconButton
                         color="inherit"
