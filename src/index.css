@@ -18,7 +18,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 	box-sizing: border-box;
-	text-decoration: none;
+	text-decoration: none !important;
 }
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -46,7 +46,7 @@ table {
 :root{
   --cor-primaria: #000000; /*background*/
   --cor-secundaria: #F6F6F6; /*texto*/
-  --cor-terciaria: #c20638;/*titulos */
+  --cor-terciaria: #ee154f;/*titulos */
   --cor-destaque: #e722a5ec; /*destaque*/
 --cor-hover:#8a2be2; /*hover*/
 
@@ -64,5 +64,5 @@ body{
 }
 
 .fundo{
-	background-color: #e722a5ec !important;
+	background-color: #c20638 !important;
 }

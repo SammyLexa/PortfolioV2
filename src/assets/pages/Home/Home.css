@@ -5,6 +5,14 @@
     margin: 0 auto;
 }
 
+
+
+@media(max-width: 768px){ 
+    .imagemGif{
+        width: 0%;
+    }
+}
+
 strong{
     color: var(--cor-terciaria)
 }

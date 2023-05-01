@@ -1,0 +1,10 @@
+.textoMenu{
+    color: black !important;
+    font-weight: bold !important;
+    text-align: center !important;
+}
+
+.Menu{
+    background-color: #980D33;
+    padding: 2rem 0rem;
+}
