@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import './Home.css'
 import GitHubIcon from '@mui/icons-material/GitHub';
-
+import EmailIcon from '@mui/icons-material/Email';
 
 
 function Home() {
@@ -34,9 +34,7 @@ function Home() {
             <a href="https://github.com/SammyLexa" target="_blank">
               <Button className='botao' variant="outlined" style={{ borderColor: "white", backgroundColor: "var(--cor-hover)", color: "black" }}>GitHub</Button>
             </a>
-            <a href="https://github.com/SammyLexa/Portfolio" target="_blank">
-              <Button className='botao' variant="outlined" style={{ borderColor: "white", backgroundColor: "var(--cor-hover)", color: "black" }}>Portfolio</Button>
-            </a>
+              <Typography style={{ color: "white", fontWeight: "bold", fontSize: "var(--tamanho-paragrafo)" }}>samanthapereira.contato@gmail.com <EmailIcon style={{ color: 'var(--cor-terciaria)', fontSize: "large" }}/></Typography> 
           </Box>
         </Grid>
         <Grid item xs={12} md={6} paddingY={{ xs: 10, md: 20 }}>
